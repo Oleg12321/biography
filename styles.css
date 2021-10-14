@@ -1,0 +1,147 @@
+body {
+    background-color: rgb(16, 112, 19);
+    color: rgb(25, 250, 50);   
+    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:visited{
+    color: rgb(47, 194, 18);
+}
+h1{
+    color: rgb(247, 240, 240);
+}
+h2{
+    color: rgb(247, 240, 240);
+}
+h4 {
+    color: rgb(247, 240, 240);
+}
+th{
+    color: rgba(255, 255, 255, 0.836);
+}
+.avatar {
+    height: 200px;
+    width: 300px;
+    border-radius: 28px;
+    box-shadow: 10px 10px 14px rgba(255, 255, 255, 0.5);
+}
+.info p {
+color: rgb(247, 240, 240);
+margin: 0;
+font-style: italic;
+font-weight: bolt;
+text-decoration: underline;
+}
+.info{
+    display: flex;
+    margin-bottom: 20px;
+}
+@media (max-width: 700px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+.info-text {
+    margin-left: 40px;
+}
+.info-text h4 {
+    margin-bottom: 10px;
+}
+.info1 {
+    text-decoration: line-through;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+}
+.contrainer {
+    margin: auto;
+    padding-top: 30px;
+}
+/*.social {
+    background: white;
+    padding: 15px;
+    border: 5px solid rgb(76, 240, 76);
+    margin: 20px;
+}*/
+.card {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+.card h2 {
+margin-bottom: 10px;
+}
+.list {
+    padding: 0 20px;
+}
+.list li {
+    margin-bottom: 10px;
+}
+.table {
+    width: 100%;
+}
+.table td {
+padding-bottom: 10px;
+}
+.table td:nth-child(1) {
+    color: rgb(0, 255, 0);
+}
+.table td:nth-child(2),
+.table td:nth-child(3) {
+    color: rgba(25, 250, 51, 0.815);
+}
+.contact {
+    color: rgb(247, 240, 240);
+}
+.contact h2 {
+text-align: center;
+}
+.form-group label {
+    display: block;
+    font-size: 14px;
+    color: rgb(247, 240, 240);
+}
+.form-group input {
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(23, 255, 2);
+    color: rgb(255, 255, 255);
+    padding: 15px 0 10px;
+    outline: none;
+    font-family: inherit; 
+    background: transparent;
+}
+.form-group textarea {
+    background: transparent;
+    color: rgb(255, 255, 255);
+}
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+.row > .form-group {
+    width: 50%;
+
+}
+.row > .form-group:first-child {
+    margin-right: 20px;
+}
+.btn {
+    background: rgb(0, 145, 12);
+    pad: 15px 20px;
+    color: rgb(247, 240, 240);
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.btn:hover {
+    opacity: 0.9;
+}

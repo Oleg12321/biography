@@ -5,32 +5,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Biography</title>
+    <link  href="styles.css" rel="stylesheet"/>                
 </head>
 <body>
-    <table cellspacing="15">
-        <tr>
-            <td><img src="Futsal.jpg" width="300" alt="Я"></td>
-            <td><h1>Данилович Олег</h1>
-                <p><em>Гравець футзального клубу <strong>СК Енергія-2</strong></em></p>
-                <p>Люблю подорожувати, займатися спортом, вчитися.</p></td>
-        </tr> 
-    </table>       
-<hr>
-<h2>Мої соціальні мережі</h2>
-<ul>
-    <li><a href="https://instagram.com/danilovich_oleg" target="_blank">Instagrem</a></li>
-    <li><a href="https://t.me./Alegka0" target="_blank">Telegram</a></li>
-</ul>
-<hr>
+    <div class="container">
+        <div class="info"> 
+            <img src="Futsal.jpg" alt="Я" class="avatar">
+                <div class="info-text">
+                    <h1>Данилович Олег</h1>
+                        <p><em>Гравець футзального клубу КІВС Енергія-2</em></p>
+                        <p>Люблю подорожувати, займатися спортом, <div class="info1">вчитися</div></p>  
+                        <h4>Мої соціальні мережі</h4>
+            <a href="https://instagram.com/danilovich_oleg" target="_blank">Instagram</a>
+            |
+            <a href="https://t.me./Alegka0" target="_blank">Telegram</a>
+                </div>
+        </div>   
+
+<div class="card">
 <h2>Мої хоббі</h2>
-<ol>
+<ol class="list">
     <li>Футбол</li>
     <li>Подорожі</li>
     <li>Психологія</li>
 </ol>
-<hr>
+</div>
+<div class="card">
 <h2>Кар'єра</h2>
-<table>
+<table class="table">
     <tr>
         <th>Клуб</th>
         <th>Позиція</th>
@@ -57,23 +59,31 @@
         <td>2021 - ...</td>
     </tr>   
 </table>
-<hr>
+</div>
+<div class="card">
 <h2>Youtube futsal</h2>
 <a href="https://www.youtube.com/channel/UCfF8yMfzZJptcOu4LSP2RBw" target="_blank">Futsal</a>
-<hr>
-<h2>Зв'язатися зі мною</h2>
-<form>
-    <label for="name">Ваше ім'я:</label>
-    <input type="text" id="name" placeholder="Введіть ваше ім'я...">
-    <br>
-    <label for="email">Ваше Email:</label>
-    <input type="email" id="email" placeholder="Введіть  email...">
-    <br>
+</div>
+
+<div class="contact"><h2>Зв'язатися зі мною</h2></div>
+<form action="/">
+    <div class="row">    
+        <div class="form-group">
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" placeholder="Введіть ваше ім'я...">
+        </div>
+        <div  class="form-group">
+            <label for="email">Ваше Email:</label>
+            <input type="email" id="email" placeholder="Введіть  email...">
+        </div>  
+    </div>
+ <div  class="form-group">
     <label for="text">Ваше Повідомлення:</label>
-    <br>
     <textarea id="text"></textarea>
-    <br>
-    <input type="submit" value="Зв'язатися">
+    </div>
+    <input class="btn" type="submit" value="Зв'язатися">
 </form>
+</div>
+    </div>
 </body>
 </html>
